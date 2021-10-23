@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>STUDENT LOGIN</title>
+		<style>
+		.student-login-form {
+			width: 300px;
+			margin: 0 auto;
+			font-family: Tahoma, 'Times New Roman', sans-serif;
+		}
+		.student-login-form h1 {
+			text-align: left;
+			color: rgb(145, 26, 109);
+			font-size: 24px;
+			padding: 20px 0 20px 0;
+		}
+		.student-login-form input[type="password"],
+		.student-login-form input[type="text"] {
+			width: 100%;
+			padding: 15px;
+			border: 1px solid black;
+			margin-bottom: 15px;
+			box-sizing:border-box;
+		}
+		.student-login-form input[type="submit"] {
+			width: 100%;
+			padding: 15px;
+			background-color : rgb(31, 192, 165);
+			border: 0;
+			box-sizing: border-box;
+			cursor: pointer;
+			font-weight: bold;
+			color: black;
+		}
+		</style>
+	</head>
+	<body style = "background-image: url(https://tse3.mm.bing.net/th?id=OIP.b9ibSZL9OnMqzO6i_7LelwHaEK&pid=Api&P=0&w=310&h=175); background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-size: cover;">
+		<div class="student-login-form">
+			<h1>STUDENT LOGIN FOR FEEDBACK</h1>
+			<form action="auth" method="POST">
+				<input type="text" name="username" placeholder="Username" required>
+				<input type="password" name="password" placeholder="Password" required>
+				<input type="submit">
+			</form>
+		</div>
+	</body>
+</html>
